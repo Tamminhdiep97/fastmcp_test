@@ -1,0 +1,9 @@
+[project]
+name = "mcp-workspace"
+version = "0.1.0"
+description = "MCP Workspace containing server and client components"
+readme = "README.md"
+requires-python = ">=3.12"
+
+[tool.uv.workspace]
+members = ["server", "client_agent"]

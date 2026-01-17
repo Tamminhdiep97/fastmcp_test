@@ -1,0 +1,15 @@
+[project]
+name = "mcp-client-agent"
+version = "0.1.0"
+description = "MCP Client Agent components"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=0.2.1",
+    "langchain-mcp-adapters>=0.2.1",
+    "langchain[openai]==1.2.3",
+    "langgraph==1.0.5",
+    "loguru>=0.7.3",
+    "langchain-openai>=0.1.0",
+    "langchain-core==1.2.7",
+]

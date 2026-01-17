@@ -1,0 +1,10 @@
+[project]
+name = "mcp-server"
+version = "0.1.0"
+description = "MCP Server components"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp==2.14.2",
+    "loguru>=0.7.3",
+]
