@@ -55,15 +55,14 @@ Model use in this repo is called **cloud model**, which is a special type of mod
 
 To use it
 
-    1. First you have to signup an accound on ollama.com, use this link [ollama signup](https://signin.ollama.com/sign-up?)
-
-    2. Then process to signin on your machine
+1. First you have to signup an accound on ollama.com, use this link [ollama signup](https://signin.ollama.com/sign-up?)
+2. Then process to signin on your machine
 
 ```bash
 ollama signin
 ```
 
-    3. Pull your model
+3. Pull your model
 
 ```bash
 ollama pull gemini-3-flash-preview:cloud
