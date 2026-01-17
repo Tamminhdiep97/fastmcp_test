@@ -15,7 +15,7 @@ This project uses `uv` for package management (not using anaconda). Install `uv`
 
 ```bash
 # On Unix-like systems (Linux/macOS)
-curl -LsSf https://astral.sh/uv/install.sh | sh
+curl -LsSf https://astral.sh/uv/install.sh | less
 
 # On Windows (PowerShell)
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
